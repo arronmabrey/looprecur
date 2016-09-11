@@ -1,0 +1,33 @@
+{
+  "name": "looprecur",
+  "version": "0.1.0",
+  "description": "looprecur",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arronmabrey/looprecur.git"
+  },
+  "keywords": [
+    "fp",
+    "functional",
+    "recursion",
+    "recursive",
+    "trampoline",
+    "clj",
+    "clojure",
+    "cljs",
+    "clojurescript",
+    "loop",
+    "recur",
+    "looprecur"
+  ],
+  "author": "Arron Mabrey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arronmabrey/looprecur/issues"
+  },
+  "homepage": "https://github.com/arronmabrey/looprecur#readme"
+}
