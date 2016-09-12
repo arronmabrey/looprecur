@@ -29,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/arronmabrey/looprecur/issues"
   },
-  "homepage": "https://github.com/arronmabrey/looprecur#readme"
+  "homepage": "https://github.com/arronmabrey/looprecur#readme",
+  "devDependencies": {
+    "expect": "^1.20.2"
+  }
 }
