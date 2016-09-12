@@ -18,13 +18,14 @@
     });
 
     function loop(fn) {
-        var fnargs = [void 0, recur];
+        var fnargs;
         function recur() {
             for(var _len = arguments.length, _key = 0; _key < _len; _key++)
                 fnargs[_key+2] = arguments[_key];
             return fn.bind.apply(fn, fnargs)
         };
         return function() {
+            fnargs = [void 0, recur];
             for(var result = recur.apply(void 0, arguments); result instanceof Function;)
                 result = result();
             return result
